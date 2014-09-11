@@ -1,2 +1,248 @@
-<h1>Home#show</h1>
-<p>Find me in app/views/home/show.html.erb</p>
+<div class="menu transparent shadow drop-down">
+	<div class="container clearfix full-height">
+		<div class="upper-menu">
+			<div id="name" class="grid_4">
+				<a href="#slide1" id="ch-name" class="large">宋梓平</a>
+				<h2>Tzu-Pin Sung</h2>
+			</div>
+			<div id="profile-img-1" class="profile-img-small img-none"><img src="<%= asset_path( 'profile-2.png' ) %>"></div>
+			<div id="nav" class="grid_7 omega">
+				<ul class="navigation">
+					<li data-slide="1">About</li>
+					<li data-slide="2">Experience</li>
+					<li data-slide="3">Projects</li>
+					<li data-slide="4">Publication</li>
+					<li data-slide="5">Dance</li>
+				</ul>
+			</div>
+		</div>
+		<div id="profile-img-2" class="profile-img-large"><img src="<%= asset_path( 'profile.png' ) %>"></div>
+		<div id="arrow"><a href="#slide2"><img src="<%= asset_path( 'arrow.png' ) %>"></a></div>
+	</div>
+</div>
+
+
+<div class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0.5"></div>
+
+
+
+<div class="slide" id="slide2" data-slide="2" data-stellar-background-ratio="0.3">
+	<div class="container clearfix full-height">
+		<div id="content" class="grid_12 full-height content-s2">
+			<h1>Experience</h1>
+			<div class="exp-container-frame">
+				<div class="exp-frame shadow-light">
+					<div class="exp-img-frame">
+						<img class="exp-img" src="images/ntu-mark.png">
+					</div>
+					<ul class="exp-list">
+						<li class="exp-org"><a href="http://www.ntu.edu.tw/chinese2009/">National Taiwan University</a></li>
+						<li class="exp-time">09/2009 - 06/2013</li>
+						<li class="exp-title"><div class="exp-col1"><span class="glyphicon glyphicon-user"></span></div><div class="exp-col2"> Bachelor of Science in Electrical Engineering</div></li>
+						<li class="exp-content"><div class="exp-col1"><span class="glyphicon glyphicon-info-sign"></span></div><div class="exp-col2"> Graduate at 06/15/2013</div></li>
+					</ul>
+				</div>
+				<div class="exp-frame shadow-light">
+					<div class="exp-img-frame">
+						<img class="exp-img" src="images/mpac-mark.png">
+					</div>
+					<ul class="exp-list">
+						<li class="exp-org"><a href="http://mpac.ee.ntu.edu.tw/index.php">Multimedia Processing and Communication Lab</a></li>
+						<li class="exp-time">09/2011 - Present</li>
+						<li class="exp-title"><div class="exp-col1"><span class="glyphicon glyphicon-user"></span></div><div class="exp-col2">Undergraduate Researcher</div></li>
+						<li class="exp-content"><div class="exp-col1"><span class="glyphicon glyphicon-info-sign"></span></div><div class="exp-col2">Light Field Research</div></li>
+					</ul>
+				</div>
+				<div class="exp-frame shadow-light">
+					<div class="exp-img-frame">
+						<img class="exp-img" src="images/mvnl-mark.png">
+					</div>
+					<ul class="exp-list">
+						<li class="exp-org"><a href="http://mvnl.csie.ntu.edu.tw/">Mobile and Vehicular Network Lab</a></li>
+						<li class="exp-time">07/2012 - 09/2013</li>
+						<li class="exp-title"><div class="exp-col1"><span class="glyphicon glyphicon-user"></span></div><div class="exp-col2">Undergraduate Researcher</div></li>
+						<li class="exp-content"><div class="exp-col1"><span class="glyphicon glyphicon-info-sign"></span></div><div class="exp-col2">Traffic Light Recognition</div></li>
+					</ul>
+				</div>
+				<div class="exp-frame shadow-light">
+					<div class="exp-img-frame">
+						<img class="exp-img" src="images/aea-mark.png">
+					</div>
+					<ul class="exp-list">
+						<li class="exp-org"><a href="http://www.tpk.moj.gov.tw/mp030.html">Administrative Enforcement Agency</a></li>
+						<li class="exp-time">08/2013 - Present</li>
+						<li class="exp-title"><div class="exp-col1"><span class="glyphicon glyphicon-user"></span></div><div class="exp-col2">Enforcement Officer Assistant</div></li>
+						<li class="exp-content"><div class="exp-col1"><span class="glyphicon glyphicon-info-sign"></span></div><div class="exp-col2">1 year mandatory service</div></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+
+
+<div class="slide" id="slide3" data-slide="3" data-stellar-background-ratio="0.3">
+	<div class="container clearfix full-height">
+		<div id="content" class="grid_12 full-height content-s3">
+			<h1>Projects</h1>
+			<div class="pro-container-frame">
+				<div class="pro-frame shadow-light">
+					<div class="pro-img-frame">
+						<img class="pro-img" src="images/lm-mark.png">
+					</div>
+					<ul class="pro-list">
+						<li class="pro-name">
+							<a target="_blank" href="http://hacks.developer.yahoo.com/hack/yahoo-hack-taiwan/leak-motion/event_17/hack_1022">Leak Motion</a></li>
+						<li class="pro-time">11/2013</li>
+						<li class="pro-tag">
+							<span class="label label-danger">Award-Winner</span>
+							<span class="label label-warning">Yahoo Hack Taiwan 2013</span>
+						</li>
+						<li class="pro-tag">
+							<span class="label label-default">iOS</span>
+							<span class="label label-default">Python</span>
+							<span class="label label-default">Google Map API</span>
+						</li>
+						<li class="pro-ref"><div class="pro-col1"><span class="glyphicon glyphicon-link"></span></div><div class="pro-col2">Source Code
+							<a target="_blank" href="https://github.com/acsalu/LeakMotion">1</a>,
+							<a target="_blank" href="https://github.com/mw10104587/LMServer">2</a></div>
+						</li>
+						<li class="pro-ref"><div class="pro-col1"><span class="glyphicon glyphicon-tower"></span></div><div class="pro-col2">
+							<a target="_blank" href="http://hacks.developer.yahoo.com/hack/yahoo-hack-taiwan/leak-motion/event_17/hack_1022">Honor Mention (Top 4)</a>
+							</div>
+						</li>
+						<li class="pro-content">
+							<div class="pro-col1"><span class="glyphicon glyphicon-info-sign"></span></div>
+							<div class="pro-col2">Leak Motion is an iPhone app that provides joggers with running routes which represents meaningful patterns such as heart shapes on street map. We transform the map into a graph and the desired pattern into a sub-graph. The algorithm searches the subgraph isomorphism in the graph to find the best possible pattern.</div>
+						</li>
+					</ul>
+				</div>
+				<div class="pro-frame shadow-light">
+					<div class="pro-img-frame">
+						<img class="pro-img" src="images/ag-mark.png">
+					</div>
+					<ul class="pro-list">
+						<li class="pro-name">
+							<a target="_blank" href="http://www.innovateasia.com/2012_tw/">Air Guitar</a></li>
+						<li class="pro-time">05/2012 - 12/2012</li>
+						<li class="pro-tag">
+							<span class="label label-danger">Award-Winner</span>
+							<span class="label label-warning">Altera Innovate Asia 2012</span>
+						</li>
+						<li class="pro-tag">
+							<span class="label label-default">FPGA</span>
+							<span class="label label-default">Verilog</span>
+							<span class="label label-default">Quartus II</span>
+						</li>
+						<li class="pro-ref"><div class="pro-col1"><span class="glyphicon glyphicon-film"></span></div><div class="pro-col2">
+							<a target="_blank" href="https://www.youtube.com/watch?v=XPjMeNuOXco">Video</a>
+							</div>
+						</li>
+						<li class="pro-ref"><div class="pro-col1"><span class="glyphicon glyphicon-file"></span></div><div class="pro-col2">
+							<a target="_blank" href="https://drive.google.com/file/d/0BwfBOzip3CCMVFZDT21YVmxFQlE/edit?usp=sharing">Paper</a>,
+							<a target="_blank" href="https://drive.google.com/file/d/0BwfBOzip3CCMUVdGRy14bWlnbms/edit?usp=sharing">Slide</a>
+							</div>
+						</li>
+						<li class="pro-ref"><div class="pro-col1"><span class="glyphicon glyphicon-tower"></span></div><div class="pro-col2">
+							<a target="_blank" href="http://www.innovateasia.com/2012_tw/">Most Popular Award and 2nd Prize</a>
+							</div>
+						</li>
+						<li class="pro-content"><div class="pro-col1"><span class="glyphicon glyphicon-info-sign"></span></div><div class="pro-col2">Air Guitar is a real-time FPGA system that enables the users to play the guitar with nothing in hand. It incorporates skin detection, gesture recognition, and sound synthesizer to achieve our goal. With 12 simple gestures and various playing modes, everyone even beginners can enjoy playing the guitar.</div></li>
+					</ul>
+				</div>
+				<div class="pro-frame shadow-light">
+					<div class="pro-img-frame">
+						<img class="pro-img" src="images/tr-mark.png">
+					</div>
+					<ul class="pro-list">
+						<li class="pro-name">
+							<a target="_blank" href="http://2012contest.trendmicro.com/tw/news.html">Travelers</a></li>
+						<li class="pro-time">04/2012 - 07/2012</li>
+						<li class="pro-tag">
+							<span class="label label-danger">Award-Winner</span>
+							<span class="label label-warning">Trend Micro Contest 2012</span>
+						</li>
+						<li class="pro-tag">
+							<span class="label label-default">Google App Engine</span>
+							<span class="label label-default">Java</span>
+							<span class="label label-default">HTML5</span>
+							<span class="label label-default">JavaScript</span>
+						</li>
+						<li class="pro-ref"><div class="pro-col1"><span class="glyphicon glyphicon-globe"></span></div><div class="pro-col2">
+							<a target="_blank" href="http://travel-agents.appspot.com/travel.jsp">Website</a>
+						</li>
+						<li class="pro-ref"><div class="pro-col1"><span class="glyphicon glyphicon-tower"></span></div><div class="pro-col2">
+							<a target="_blank" href="http://2012contest.trendmicro.com/tw/news.html">Top 15</a>
+							</div>
+						</li>
+						<li class="pro-content"><div class="pro-col1"><span class="glyphicon glyphicon-info-sign"></span></div><div class="pro-col2">A trip-planning website that auto-generates customized trip fot the user. The user can input desired time and spots, taste for the trip, and get a complete trip. The planning algorithm aims to find the shortest path along the spots while taking various factors such as the user’s favorites, type and opening/closing time of a spot, recommendations from other users, etc. into consideration.</div></li>
+					</ul>
+				</div>
+				<!--div class="pro-frame shadow-light">
+					<div class="pro-img-frame">
+						<img class="pro-img" src="images/tr-mark.png">
+					</div>
+					<ul class="pro-list">
+						<li class="pro-name">
+							<a target="_blank" href="http://2012contest.trendmicro.com/tw/news.html">Light Field Simulation</a></li>
+						<li class="pro-time">04/2012 - 07/2012</li>
+						<li class="pro-tag">
+							<span class="label label-info">Research Project</span>
+							<span class="label label-warning">MPAC Lab</span>
+						</li>
+						<li class="pro-tag">
+							<span class="label label-default">Google App Engine</span>
+							<span class="label label-default">Java</span>
+							<span class="label label-default">HTML5</span>
+							<span class="label label-default">JavaScript</span>
+						</li>
+						<li class="pro-ref"><div class="pro-col1"><span class="glyphicon glyphicon-globe"></span></div><div class="pro-col2">
+							<a target="_blank" href="http://travel-agents.appspot.com/travel.jsp">Website</a>
+						</li>
+						<li class="pro-ref"><div class="pro-col1"><span class="glyphicon glyphicon-tower"></span></div><div class="pro-col2">
+							<a target="_blank" href="http://2012contest.trendmicro.com/tw/news.html">Top 15</a>
+							</div>
+						</li>
+						<li class="pro-content"><div class="pro-col1"><span class="glyphicon glyphicon-info-sign"></span></div><div class="pro-col2"></div></li>
+					</ul>
+				</div-->
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<div class="slide" id="slide4" data-slide="4" data-stellar-background-ratio="0.3">
+	<div class="container clearfix">
+
+		<div id="content" class="grid_12 full-height content-s4">
+			<h1>Publications</h1>
+			<p>[1]  An-Cheng Chang, <span class="bold underline">Tzu-Pin Sung</span>, Kuang-Tsu Shih, Homer H. Chen, “Anti-aliasing for light field rendering,” submitted to <span class="italic">IEEE International Conference on Multimedia and Expo (ICME)<span>, July 2014</p>
+			<p>[2]  <span class="bold underline">Tzu-Pin Sung</span>, Hsin-Mu Tsai, “Real-time Trafﬁc Light Recognition on Mobile Devices with Geometry-Based Filtering,” in <span class="italic">ACM/IEEE International Conference on Distributed Smart Cameras (ICDSC)</span>, November 2013</p>
+			<p>[3]  Ger Yang (*co-first author), <span class="bold underline">Tzu-Pin Sung</span> (*co-first author), Wei-Tze Tsai (*co-first author), Shao-Yi Chien, “Air Guitar on Altera DE2-70 FPGA Architecture,” in <span class="italic">1st Asia-Pacific Workshop on FPGA Applications</span>, December 2012</p>
+		</div>
+
+	</div>
+</div>
+
+<div class="slide" id="slide5" data-slide="5" data-stellar-background-ratio="0.3">
+	<div class="container clearfix">
+		<div id="content" class="grid_12 full-height content-s5">
+			<h1>Dance Shows</h1>
+			<div class="video-container">
+				<iframe class="youtube-player" type="text/html" width="640" height="385" src="http://www.youtube.com/embed/2xmWsDfcjbY" frameborder="0"> </iframe>
+				<iframe class="youtube-player" type="text/html" width="640" height="385" src="http://www.youtube.com/embed/JlC8slnZ09Y" frameborder="0"> </iframe>
+				<iframe class="youtube-player" type="text/html" width="640" height="385" src="http://www.youtube.com/embed/V8R8vgwjSpo" frameborder="0"> </iframe>
+				<iframe class="youtube-player" type="text/html" width="640" height="385" src="http://www.youtube.com/embed/OhdqScXXgzI" frameborder="0"> </iframe>
+				<iframe class="youtube-player" type="text/html" width="640" height="385" src="http://www.youtube.com/embed/SzXH0V3c46M" frameborder="0"> </iframe>
+				<iframe class="youtube-player" type="text/html" width="640" height="385" src="http://www.youtube.com/embed/gOAt8BXv8X0" frameborder="0"> </iframe>
+				<iframe class="youtube-player" type="text/html" width="640" height="385" src="http://www.youtube.com/embed/fznttAbqnQs" frameborder="0"> </iframe>
+			</div>
+		</div>
+
+	</div>
+</div>
